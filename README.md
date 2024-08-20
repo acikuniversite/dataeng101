@@ -4,7 +4,7 @@ Bu repo, veri mühendisliği alanında kariyer yapmak isteyenler için temel kon
 
 ## Dersler
 
-### Ders 1: Giriş ve Kurulum
+### [Ders 1: Giriş ve Kurulum](ders1.md)
 - **Ders 1a: Veri Mühendisliğine Giriş**
   - Veri Mühendisliği Nedir?
   - Veri Mühendisliğinin Önemi
@@ -16,7 +16,7 @@ Bu repo, veri mühendisliği alanında kariyer yapmak isteyenler için temel kon
   - Gerekli Kütüphanelerin Yüklenmesi (Pandas, NumPy, etc.)
   - Bulut Platformlarının Tanıtımı (AWS, GCP, Azure)
 
-### Ders 2: Veri Kaynakları ve ETL Süreçleri
+### [Ders 2: Veri Kaynakları ve ETL Süreçleri](ders2.md)
 - **Ders 2a: Veri Kaynakları ve Veri Toplama**
   - Farklı Veri Kaynakları (RDBMS, NoSQL, API, Dosyalar)
   - Veri Toplama Yöntemleri ve Araçları
@@ -28,7 +28,7 @@ Bu repo, veri mühendisliği alanında kariyer yapmak isteyenler için temel kon
   - Apache Airflow ile ETL İşlemleri
   - Veri Doğrulama ve Kalite Kontrol
 
-### Ders 3: Veri Depolama ve Akış Yönetimi
+### [Ders 3: Veri Depolama ve Akış Yönetimi](ders3.md)
 - **Ders 3a: Veri Depolama Çözümleri**
   - RDBMS: SQL ve Veri Modelleri
   - NoSQL: MongoDB ve Cassandra
@@ -40,38 +40,34 @@ Bu repo, veri mühendisliği alanında kariyer yapmak isteyenler için temel kon
   - Akış ve Toplu İşleme Arasındaki Farklar
   - Zaman Serisi Verisi ile Çalışma
 
-### Ders 4: Büyük Veri ve Güvenlik
+### [Ders 4: Büyük Veri ve Hadoop Ekosistemi](ders4.md)
 - **Ders 4a: Büyük Veri İşleme ve Apache Spark**
   - Büyük Veri Kavramı ve Zorlukları
   - Apache Spark’ın Mimarisi
   - Spark RDD, DataFrame ve Dataset
   - Spark ile Büyük Veri Analizi
-- **Ders 4b: Veri Güvenliği ve Gizliliği**
-  - Veri Güvenliği Temelleri
-  - GDPR ve KVKK Uyum Süreçleri
-  - Veriyi Anonimleştirme ve Maskeleme Yöntemleri
-  - Veri Güvenliği Araçları ve Protokolleri
+  - **Pratik Uygulama:** Spark ile Büyük Veri Analizi (Kod Örnekleri)
+- **Ders 4b: Hadoop Ekosistemi ve HDFS
+  - Hadoop Ekosistemi: Hadoop, YARN, HDFS
+  - HDFS ile Büyük Veri Depolama
+  - MapReduce ile Veri İşleme
+  - **Pratik Uygulama:** Hadoop HDFS ve MapReduce Kullanımı (Kod Örnekleri)
+  - Hive ve Pig ile Veri Sorgulama 
 
-### Ders 5: Veri Analitiği ve Pipeline Yönetimi
+### [Ders 5: Veri Analitiği ve BigQuery Kullanımı](ders5.md)
 - **Ders 5a: Veri Analitiği ve Raporlama**
   - Temel Veri Analizi Yöntemleri
-  - Veri Görselleştirme Araçları (Tableau, Power BI)
   - SQL ile Veri Sorgulama ve Analiz
+  - **Pratik Uygulama:** BigQuery ile SQL Sorgulamaları (Kod Örnekleri)
+  - Veri Görselleştirme Araçları (Tableau, Power BI)
   - İş Zekası ve Raporlama Teknikleri
-- **Ders 5b: Veri Pipeline’larının Yönetimi**
+- **Ders 5b: Ders 5b: Veri Pipeline’larının Yönetimi**
   - Apache NiFi ile Veri Akışlarını Yönetme
   - CI/CD ile Veri Pipeline’larını Otomatikleştirme
-  - Docker ve Kubernetes ile Ölçeklenebilir Pipeline’lar
+  - Pratik Uygulama: Docker ve Kubernetes ile Veri Pipeline’ları (Kod Örnekleri)
   - Veri Pipeline’larının İzlenmesi ve Bakımı
 
-### Ders 6: Proje Yönetimi ve Gerçek Dünya Projesi
-- **Ders 6a: Proje Yönetimi ve Agile Yaklaşımı**
-  - Veri Mühendisliği Projelerinde Agile Yöntemleri
-  - Veri Mühendisliği Proje Yaşam Döngüsü
-  - Proje Planlama ve Zaman Yönetimi
-  - Ekip Çalışması ve İşbirliği Araçları
-- **Ders 6b: Gerçek Dünya Projesi**
-  - Veri Mühendisliği Projesi Seçimi
-  - Projenin Analizi ve Tasarımı
-  - Veri Toplama ve Pipeline Oluşturma
-  - Sonuçların Sunumu ve Değerlendirme
+### [Ders 6: Uçtan Uca Proje Uygulamaları](ders6.md)
+- **Ders 6a: Uçtan Uca Proje 1 - Apache Airflow ile ETL Pipeline Geliştirme**
+- **Ders 6b: Uçtan Uca Proje 2 - Apache Spark ve Google BigQuery ile Büyük Veri Analizi**
+- **Ders 6c: Uçtan Uca Proje 3 - Hadoop Ekosistemi ile Veri İşleme ve Analiz**
